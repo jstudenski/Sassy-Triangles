@@ -225,6 +225,93 @@ body { margin: 0px; }
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px, 75px 264px);
 }
 
+.shape24 {
+    left: 75px;
+    top: 528px;
+    width: 75px;
+    height: 66px;
+    background-color: cyan;
+    clip-path: polygon(0px 0px, 37.5px 66px, 75px 0px);
+}
+
+
+.shape25 {
+    left: 112.5px;
+    top: 528px;
+    width: 75px;
+    height: 66px;
+    background-color: black;
+    clip-path: polygon(0px 66px, 37.5px 0px, 75px 66px);
+}
+
+
+.shape26 {
+    left: 150px;
+    top: 528px;
+    width: 75px;
+    height: 66px;
+    background-color: cyan;
+    clip-path: polygon(0px 0px, 37.5px 66px, 75px 0px);
+}
+
+.shape27 {
+    left: 112.5px;
+    top: 594px;
+    width: 75px;
+    height: 66px;
+    background-color: cyan;
+    clip-path: polygon(0px 0px, 37.5px 66px, 75px 0px);
+}
+
+
+.shape28 {
+    left: 75px;
+    top: 528px;
+    width: 225px;
+    height: 396px;
+    background-color: brown;
+    clip-path: polygon(150px 0px, 225px 132px, 75px 396px, 0px 264px);
+}
+
+.shape29 {
+    left: 0px;
+    top: 792px;
+    width: 150px;
+    height: 132px;
+    background-color: red;
+    clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
+}
+
+.shape30 {
+    left: 225px;
+    top: 792px;
+    width: 225px;
+    height: 132px;
+    background-color: navy;
+    clip-path: polygon(0px 0px, 150px 0px, 225px 132px, 75px 132px);
+}
+
+
+.shape31 {
+    left: 450px;
+    top: 792px;
+    width: 150px;
+    height: 132px;
+    background-color: red;
+    clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
+}
+
+
+.shape32 {
+    left: 600px;
+    top: 792px;
+    width: 150px;
+    height: 132px;
+    background-color: red;
+    clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
+}
+
+
 
 /*
 .shape8 {
