@@ -1,6 +1,7 @@
 body { margin: 0px; }
 
 .container {
+/*    transform: scale(1);*/
     position: relative;
     width: 750px;
     height: 924px;
@@ -9,19 +10,21 @@ body { margin: 0px; }
 }
 .container a {
     position: absolute;
+    background-size: 100% 100%;
 }
 .container div {
     position: absolute;
+    background-size: 100% 100%;
 }
 
-
+    
 
 .shape1 {
     left: 75px;
     top: 66px;
     width: 300px;
     height: 198px;
-    background-color: tomato;
+    background-image: url(images/image_1.png);
     clip-path: polygon(0px 198px, 112px 0px, 150px 66px, 225px 66px, 300px 198px);
 }
 
@@ -30,7 +33,7 @@ body { margin: 0px; }
     top: 0px;
     width: 225px;
     height: 132px;
-    background-color: pink;
+    background-image: url(images/image_2.png);
     clip-path: polygon(0px 0px, 150px 0px, 225px 132px, 75px 132px);
 }
 
@@ -39,7 +42,7 @@ body { margin: 0px; }
     top: 0px;
     width: 150px;
     height: 132px;
-    background-color: lime;
+    background-image: url(images/image_3.png);
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
 }
 
@@ -106,7 +109,7 @@ body { margin: 0px; }
     top: 132px;
     width: 150px;
     height: 132px;
-    background-color: plum;
+    background-image: url(images/image_10.png);
     clip-path: polygon(0px 0px, 150px 0px, 75px 132px);
 }
 
@@ -160,7 +163,7 @@ body { margin: 0px; }
     top: 330px;
     width: 75px;
     height: 66px;
-    background-color: black;
+    background-image: url(images/image_16.png);
     clip-path: polygon(0px 66px, 37.5px 0px, 75px 66px);
 }
 
@@ -179,8 +182,8 @@ body { margin: 0px; }
     top: 264px;
     width: 150px;
     height: 264px;
+    background-image: url(images/image_18.png);
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px, 75px 264px);
-    background-image: url(images/image18.png);
 }
 
 .shape19 {
@@ -197,7 +200,7 @@ body { margin: 0px; }
     top: 264px;
     width: 225px;
     height: 264px;
-    background-color: lightblue;
+    background-image: url(images/image_20.png);
     clip-path: polygon(75px 0px, 225px 0px, 150px 132px, 225px 264px, 75px 264px, 0px 132px)
 }
 
@@ -296,39 +299,44 @@ body { margin: 0px; }
 
 
 .shape31 {
-    left: 450px;
-    top: 792px;
+    left: 525px;
+    top: 660px;
     width: 150px;
     height: 132px;
-    background-color: red;
+    background-image: url(images/image_31.png);
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
 }
 
 
 .shape32 {
-    left: 600px;
+    left: 450px;
     top: 792px;
     width: 150px;
     height: 132px;
-    background-color: red;
+    background-image: url(images/image_32.png);
+    background-size: 150px 132px;
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
 }
 
 .shape33 {
-    left: 675px;
-    top: 462px;
-    width: 75px;
+    left: 600px;
+    top: 792px;
+    width: 150px;
     height: 132px;
-    background-color: peachpuff;
-    clip-path: polygon(37.5px 0px, 0px 66px, 37.5px 132px, 75px 66px);
+    background-image: url(images/image_33.png);
+    clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
 }
+
+
+
+
 
 .shape34 {
     left: 450px;
     top: 528px;
     width: 150px;
     height: 264px;
-    background-color: olive;
+    background-color: brown;
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px, 75px 264px);
 }
 
@@ -351,13 +359,15 @@ body { margin: 0px; }
 }
 
 .shape37 {
-    left: 525px;
-    top: 660px;
-    width: 150px;
+    left: 675px;
+    top: 462px;
+    width: 75px;
     height: 132px;
-    background-color: red;
-    clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
+    background-color: peachpuff;
+    clip-path: polygon(37.5px 0px, 0px 66px, 37.5px 132px, 75px 66px);
 }
+
+
 
 .shape38 {
     left: 525px;
