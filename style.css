@@ -1,11 +1,14 @@
-body { margin: 0px; }
+body { 
+    margin: 0px; 
+    background-color: #191919;
+}
 
 .container {
 /*    transform: scale(1);*/
     position: relative;
     width: 750px;
     height: 924px;
-    background-color: #f5f5f5;
+/*    background-color: #191919;*/
     margin: 0px auto 0px auto;
 }
 .container a {
@@ -71,7 +74,7 @@ body { margin: 0px; }
     top: 132px;
     width: 150px;
     height: 132px;
-    background-color: purple;
+    background-image: url(images/image_6.png);
     clip-path: polygon(0px 0px, 150px 0px, 75px 132px);
 }
 
@@ -119,7 +122,7 @@ body { margin: 0px; }
     top: 264px;
     width: 75px;
     height: 66px;
-    background-color: black;
+    background-image: url(images/image_11.png);
     clip-path: polygon(0px 66px, 37.5px 0px, 75px 66px);
 }
 
@@ -128,7 +131,7 @@ body { margin: 0px; }
     top: 330px;
     width: 75px;
     height: 66px;
-    background-color: black;
+    background-image: url(images/image_12.png);
     clip-path: polygon(0px 66px, 37.5px 0px, 75px 66px);
 }
 
@@ -137,7 +140,7 @@ body { margin: 0px; }
     top: 330px;
     width: 75px;
     height: 66px;
-    background-color: black;
+    background-image: url(images/image_13.png);
     clip-path: polygon(0px 66px, 37.5px 0px, 75px 66px);
 }
 
@@ -146,7 +149,7 @@ body { margin: 0px; }
     top: 330px;
     width: 75px;
     height: 66px;
-    background-color: cyan;
+    background-image: url(images/image_14.png);
     clip-path: polygon(0px 0px, 37.5px 66px, 75px 0px);
 }
 
@@ -155,7 +158,7 @@ body { margin: 0px; }
     top: 264px;
     width: 150px;
     height: 132px;
-    background-color: purple;
+    background-image: url(images/image_15.png);
     clip-path: polygon(0px 0px, 150px 0px, 75px 132px);
 }
 .shape16 {
@@ -201,7 +204,8 @@ body { margin: 0px; }
     width: 225px;
     height: 264px;
     background-image: url(images/image_20.png);
-    clip-path: polygon(75px 0px, 225px 0px, 150px 132px, 225px 264px, 75px 264px, 0px 132px)
+    clip-path: polygon(75px 0px, 225px 0px, 150px 132px, 225px 264px, 75px 264px, 0px 132px);
+    z-index: 2;
 }
 
 .shape21 {
@@ -218,7 +222,7 @@ body { margin: 0px; }
     top: 396px;
     width: 375px;
     height: 132px;
-    background-color: navy;
+    background-image: url(images/image_22.png);
     clip-path: polygon(0px 0px, 300px 0px, 375px 132px, 75px 132px);
 }
 
@@ -227,8 +231,9 @@ body { margin: 0px; }
     top: 528px;
     width: 150px;
     height: 264px;
-    background-color: orange;
-    clip-path: polygon(0px 132px, 75px 0px, 150px 132px, 75px 264px);
+    background-image: url(images/image_23.png);
+/*    clip-path: polygon(0px 132px, 75px 0px, 150px 132px, 75px 264px);*/
+    clip-path: polygon(0px 0px, 0px 264px, 75px 264px, 150px 132px, 75px 0px);
 }
 
 .shape24 {
@@ -256,7 +261,7 @@ body { margin: 0px; }
     top: 528px;
     width: 75px;
     height: 66px;
-    background-color: cyan;
+    background-image: url(images/image_26.png);
     clip-path: polygon(0px 0px, 37.5px 66px, 75px 0px);
 }
 
@@ -265,7 +270,7 @@ body { margin: 0px; }
     top: 594px;
     width: 75px;
     height: 66px;
-    background-color: cyan;
+    background-image: url(images/image_27.png);
     clip-path: polygon(0px 0px, 37.5px 66px, 75px 0px);
 }
 
@@ -275,7 +280,7 @@ body { margin: 0px; }
     top: 528px;
     width: 225px;
     height: 396px;
-    background-color: brown;
+    background-image: url(images/image_28.png); 
     clip-path: polygon(150px 0px, 225px 132px, 75px 396px, 0px 264px);
 }
 
@@ -293,7 +298,7 @@ body { margin: 0px; }
     top: 792px;
     width: 225px;
     height: 132px;
-    background-color: navy;
+    background-image: url(images/image_30.png);    
     clip-path: polygon(0px 0px, 150px 0px, 225px 132px, 75px 132px);
 }
 
@@ -327,17 +332,14 @@ body { margin: 0px; }
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px);
 }
 
-
-
-
-
 .shape34 {
     left: 450px;
     top: 528px;
     width: 150px;
     height: 264px;
-    background-color: brown;
+    background-image: url(images/image_34.png);
     clip-path: polygon(0px 132px, 75px 0px, 150px 132px, 75px 264px);
+    z-index: 2;
 }
 
 .shape35 {
@@ -361,11 +363,15 @@ body { margin: 0px; }
 .shape37 {
     left: 675px;
     top: 462px;
-    width: 75px;
+    width: 118px;
     height: 132px;
-    background-color: peachpuff;
-    clip-path: polygon(37.5px 0px, 0px 66px, 37.5px 132px, 75px 66px);
+    background-image: url(images/image_37.png);
+    clip-path: polygon(37.5px 0px, 0px 66px, 37.5px 132px, 75px 66px, 118px 66px, 118px 0px);
 }
+
+
+
+
 
 
 
@@ -374,7 +380,7 @@ body { margin: 0px; }
     top: 528px;
     width: 225px;
     height: 264px;
-    background-color: aquamarine;
+    background-image: url(images/image_38.png);
     clip-path: polygon(0px 0px, 150px 0px, 225px 132px, 150px 264px);
 }
 
@@ -384,10 +390,19 @@ body { margin: 0px; }
     top: 858px;
     width: 75px;
     height: 66px;
-    background-color: dodgerblue;
+    background-image: url(images/image_39.png);
     clip-path: polygon(0px 0px, 37.5px 66px, 75px 0px);
 }
 
+
+.shape40 {
+    left: 225px;
+    top: 396px;
+    width: 300px;
+    height: 396px;
+    background-image: url(images/image_40.png);
+/*    clip-path: polygon(225px 0px, 300px 132px, 225px 264px, 300px 396px, 0px 396px, 75px 264px, 0px 132px, 150px 132px);*/
+}
 
 
 
