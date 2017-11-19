@@ -1,3 +1,5 @@
+// --watch style.scss:style.css
+
 body { 
     margin: 0px; 
     background-color: #191919;
@@ -16,12 +18,13 @@ body {
 	}
 
 }
+// z index !!
+// auto width and height?
+// if no image, do color;
 
 // Grid Size
 $w: 150px;
 $h: 132px;
-
-
 
 // $shapes: (
 //   (1, .5, .5, 2, 1.5, (0px 198px, 112px 0px, 150px 66px, 225px 66px, 300px 198px)),
@@ -32,8 +35,8 @@ $h: 132px;
 
 // Clipping Path Function
 @function clip($x) {
-	// @return length($x);
-	@return (nth(nth($x, 1 ), 1 ) )*$h
+	@return length($x); 
+	@return (nth(nth($x, 1 ), 1 ) ) // *$h
 
 }
 
