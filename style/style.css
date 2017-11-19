@@ -17,7 +17,7 @@ body {
   width: 300px;
   height: 198px;
   background-image: url("../images/image_1.png");
-  clip-path: polygon(0 0); }
+  clip-path: polygon(0px); }
 
 .shape2 {
   left: 150px;
@@ -25,7 +25,7 @@ body {
   width: 225px;
   height: 132px;
   background-image: url("../images/image_2.png");
-  clip-path: polygon(0px 0px); }
+  clip-path: polygon(0px); }
 
 .shape3 {
   left: 375px;
@@ -33,6 +33,6 @@ body {
   width: 150px;
   height: 132px;
   background-image: url("../images/image_3.png");
-  clip-path: polygon(0px 132px); }
+  clip-path: polygon(0px); }
 
 /*# sourceMappingURL=style.css.map */

@@ -23,56 +23,24 @@ $h: 132px;
 
 
 
-// Number 
-// Left Distance
-// Top Distance
-// Div Width
-// Div Height
-// Clipping Points
-
 // $shapes: (
 //   (1, .5, .5, 2, 1.5, (0px 198px, 112px 0px, 150px 66px, 225px 66px, 300px 198px)),
 //   (2, 1, 0, 1.5, 1, (0px 0px, 150px 0px, 225px 132px, 75px 132px)),
 // );
-
-// // Clipping Path Function
-// @function cp($target) {
-// 	@return ($target);
-// }
-
-
-
-// // Generate Shapes!
-// @each $n in $shapes {
-//  .shape#{nth($n,1)} {
-//     left:#{nth($n,2) * $w};
-//     top: #{nth($n,3) * $h};
-//     width: #{nth($n,4) * $w};
-//     height: #{nth($n,5) * $h};
-//     background-image: url("../images/image_#{nth($n,1)}.png");
-// 	clip-path: polygon( #{nth($n,cp(6))});
-//   }
-// }
 
 //HMM...
 
 // Clipping Path Function
 @function clip($x) {
 	// @return length($x);
-	@return nth($x, 1 )
-
-
-	// @each $a in $x {
-	// 	return #{$a};
-	// }
-
+	@return (nth(nth($x, 1 ), 1 ) )*$h
 
 }
 
 @each $number, $left, $top, $width, $height, $clip in 
-(1, 75px, 66px, 300px, 198px,(0 0, 112px 0px, 150px 66px, 225px 66px, 300px 198px)), // (0px 198px, 112px 0px, 150px 66px, 225px 66px, 300px 198px)
-(2, 150px, 0px, 225px, 132px,(0px 0px, 150px 0px, 225px 132px, 75px 132px)),
-(3, 375px, 0px, 150px, 132px,(0px 132px, 75px 0px, 150px 132px)){
+(1, 75px, 66px, 300px, 198px,(0 198px, 112px 0px, 150px 66px, 225px 66px, 300px 198px)), // (0px 198px, 112px 0px, 150px 66px, 225px 66px, 300px 198px)
+(2, 150px, 0px, 225px, 132px,(0 0px, 150px 0px, 225px 132px, 75px 132px)),
+(3, 375px, 0px, 150px, 132px,(0 132px, 75px 0px, 150px 132px)){
 
   .shape#{$number} {
     left:$left;
@@ -80,6 +48,6 @@ $h: 132px;
     width:$width;
     height:$height;
     background-image: url('../images/image_#{$number}.png');
-    clip-path: polygon(clip($clip));
+    clip-path: polygon(clip($clip)); // str-split($clip, ", ")
   }
 }
