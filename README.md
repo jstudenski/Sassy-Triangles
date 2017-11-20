@@ -8,8 +8,6 @@ www.metmuseum.org
 Photo glitched using:
 https://snorpey.github.io/jpg-glitch/
 
-# Bootstrap-Portfolio
-
 > ### TO DO:
 > - add z-index calculation to sass
 > - calculate width and height auto
