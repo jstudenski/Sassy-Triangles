@@ -1,6 +1,4 @@
 # CSS Triangles
-The title says it all
-
 
 All photographs are in the Public Domain:
 www.metmuseum.org
@@ -14,4 +12,6 @@ https://snorpey.github.io/jpg-glitch/
 > - if no image detected pick color or random color if not possible
 > - finish images
 > - add github readme tutorial
-
+> - add links to images
+> - add popup for nsfw links
+> - move old css properties to generator
