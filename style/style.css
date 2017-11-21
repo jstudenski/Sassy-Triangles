@@ -207,6 +207,15 @@ body {
   background-image: url("../images/image_24.png");
   clip-path: polygon(0px 0px, 37.5px 66px, 112.5px 66px, 75px 0px); }
 
+.shape25 {
+  left: 225px;
+  top: 660px;
+  width: 150px;
+  height: 198px;
+  background-image: url("../images/image_25.png");
+  clip-path: polygon(0px 0px, 150px 0px, 150px 198px, 0px 198px);
+  z-index: 1; }
+
 .shape26 {
   left: 150px;
   top: 528px;
