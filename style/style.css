@@ -43,87 +43,87 @@ p {
   height: 100%;
   border-right: 1px solid #fff; }
 
-.row1 {
+.rows div:nth-child(1) {
   height: 66px; }
-  .row1 p {
+  .rows div:nth-child(1) p {
     top: 52px;
     display: initial; }
 
-.row2 {
+.rows div:nth-child(2) {
   height: 132px; }
-  .row2 p {
+  .rows div:nth-child(2) p {
     top: 118px;
     display: initial; }
 
-.row3 {
+.rows div:nth-child(3) {
   height: 198px; }
-  .row3 p {
+  .rows div:nth-child(3) p {
     top: 184px;
     display: initial; }
 
-.row4 {
+.rows div:nth-child(4) {
   height: 264px; }
-  .row4 p {
+  .rows div:nth-child(4) p {
     top: 250px;
     display: initial; }
 
-.row5 {
+.rows div:nth-child(5) {
   height: 330px; }
-  .row5 p {
+  .rows div:nth-child(5) p {
     top: 316px;
     display: initial; }
 
-.row6 {
+.rows div:nth-child(6) {
   height: 396px; }
-  .row6 p {
+  .rows div:nth-child(6) p {
     top: 382px;
     display: initial; }
 
-.row7 {
+.rows div:nth-child(7) {
   height: 462px; }
-  .row7 p {
+  .rows div:nth-child(7) p {
     top: 448px;
     display: initial; }
 
-.row8 {
+.rows div:nth-child(8) {
   height: 528px; }
-  .row8 p {
+  .rows div:nth-child(8) p {
     top: 514px;
     display: initial; }
 
-.row9 {
+.rows div:nth-child(9) {
   height: 594px; }
-  .row9 p {
+  .rows div:nth-child(9) p {
     top: 580px;
     display: initial; }
 
-.row10 {
+.rows div:nth-child(10) {
   height: 660px; }
-  .row10 p {
+  .rows div:nth-child(10) p {
     top: 646px;
     display: initial; }
 
-.row11 {
+.rows div:nth-child(11) {
   height: 726px; }
-  .row11 p {
+  .rows div:nth-child(11) p {
     top: 712px;
     display: initial; }
 
-.row12 {
+.rows div:nth-child(12) {
   height: 792px; }
-  .row12 p {
+  .rows div:nth-child(12) p {
     top: 778px;
     display: initial; }
 
-.row13 {
+.rows div:nth-child(13) {
   height: 858px; }
-  .row13 p {
+  .rows div:nth-child(13) p {
     top: 844px;
     display: initial; }
 
-.row14 {
+.rows div:nth-child(14) {
   height: 924px; }
-  .row14 p {
+  .rows div:nth-child(14) p {
     top: 910px;
     display: initial; }
 
