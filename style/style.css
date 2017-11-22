@@ -17,32 +17,31 @@ p {
   border-radius: 13px;
   display: none; }
 
-.container, .columns, .rows {
+.container {
   position: relative;
   width: 750px;
   height: 924px;
-  margin: 0px auto 0px auto; }
-  .container a, .container div, .columns a, .columns div, .rows a, .rows div {
+  margin: 50px auto 0px auto; }
+  .container a, .container div {
     position: absolute;
     background-size: 100% 100%; }
 
-.container {
-  margin-top: 50px; }
-
 .columns, .rows {
-  z-index: 5; }
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  .columns p, .rows p {
+    top: -27px;
+    left: -27px; }
 
 .rows div {
   width: 100%;
-  border-bottom: 1px solid #ddd; }
-  .rows div p {
-    left: -27px; }
+  border-bottom: 1px solid #fff; }
 
 .columns div {
   height: 100%;
-  border-right: 1px solid #ddd; }
-  .columns div p {
-    top: -27px; }
+  border-right: 1px solid #fff; }
 
 .row1 {
   height: 66px; }
