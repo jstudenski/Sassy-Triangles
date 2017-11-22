@@ -1,13 +1,12 @@
 // sass --watch style/style.scss:style/style.css
 
 // Grid Size
-$w: 75px;
-$h: 66px;
+$w: 75px; // Width
+$h: 66px; // Height
 
 // Container Size
-$col: 10;
-$row: 14;
-
+$col: 10; // Columns
+$row: 14; // Rows
 
 body { 
     margin: 0px; 
@@ -16,9 +15,21 @@ body {
 
 p {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    background-color: #000;
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    display: none; // Hide extra grid numbers
 }
 
-.container {
+.container, .columns, .rows {
     position: relative;
     width: $col*$w;
     height: $row*$h;
@@ -29,26 +40,33 @@ p {
 	}
 }
 
+.container {
+    margin-top: 50px;
+}
 
+.columns, .rows {
+    z-index: 5;
+}
+
+// Grid line thickness and color
+$grid-border: 1px solid #ddd;
+.rows div {
+    width: 100%;
+    border-bottom: $grid-border;
+    p { left: -27px; }
+}
+.columns div {
+    height: 100%;
+    border-right: $grid-border;
+    p { top: -27px; }
+}
 
 @for $y from 1 through $row {
     .row#{$y} {
-        width: 100%;
-        height:#{$y*$h};  
-        z-index: 5;
-        border-bottom: 1px solid #ddd;
-        color: #fff;
+        height:#{$y*$h}; 
         p {
-            width: 15px;
-            height: 15px;
-            text-align: center;
-            position: absolute;
             top:($h*$y)-14px;
-            background-color: #000;
-            padding: 5px;
-            border: 1px solid #fff;
-            border-radius: 15px;
-            left: -26px;
+            display:initial; 
         }
     }
 }
@@ -56,10 +74,13 @@ p {
 @for $x from 1 through $col {
     .col#{$x} {
         width:#{$x*$w};  
-        height: 100%;
-        z-index: 5;
-        border-right: 1px solid #ddd;
+        p {
+            left:($w*$x)-14px;
+            display:initial;
+        }
     }
+
+
 }
 
 
