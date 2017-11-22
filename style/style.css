@@ -127,63 +127,63 @@ p {
     top: 910px;
     display: initial; }
 
-.col1 {
+.columns div:nth-child(1) {
   width: 75px; }
-  .col1 p {
+  .columns div:nth-child(1) p {
     left: 61px;
     display: initial; }
 
-.col2 {
+.columns div:nth-child(2) {
   width: 150px; }
-  .col2 p {
+  .columns div:nth-child(2) p {
     left: 136px;
     display: initial; }
 
-.col3 {
+.columns div:nth-child(3) {
   width: 225px; }
-  .col3 p {
+  .columns div:nth-child(3) p {
     left: 211px;
     display: initial; }
 
-.col4 {
+.columns div:nth-child(4) {
   width: 300px; }
-  .col4 p {
+  .columns div:nth-child(4) p {
     left: 286px;
     display: initial; }
 
-.col5 {
+.columns div:nth-child(5) {
   width: 375px; }
-  .col5 p {
+  .columns div:nth-child(5) p {
     left: 361px;
     display: initial; }
 
-.col6 {
+.columns div:nth-child(6) {
   width: 450px; }
-  .col6 p {
+  .columns div:nth-child(6) p {
     left: 436px;
     display: initial; }
 
-.col7 {
+.columns div:nth-child(7) {
   width: 525px; }
-  .col7 p {
+  .columns div:nth-child(7) p {
     left: 511px;
     display: initial; }
 
-.col8 {
+.columns div:nth-child(8) {
   width: 600px; }
-  .col8 p {
+  .columns div:nth-child(8) p {
     left: 586px;
     display: initial; }
 
-.col9 {
+.columns div:nth-child(9) {
   width: 675px; }
-  .col9 p {
+  .columns div:nth-child(9) p {
     left: 661px;
     display: initial; }
 
-.col10 {
+.columns div:nth-child(10) {
   width: 750px; }
-  .col10 p {
+  .columns div:nth-child(10) p {
     left: 736px;
     display: initial; }
 

@@ -128,13 +128,24 @@ p {
 }
 
 @for $x from 1 through $col {
-    .col#{$x} {
-        width:#{$x*$w};  
+
+    .columns div:nth-child(#{$x}) {
+        // background-color: red;
+        width:#{$x*$w};
         p { 
             left:($x*$w)-14px;
             display:initial;
         }
     }
+
+
+    // .col#{$x} {
+    //     width:#{$x*$w};  
+    //     p { 
+    //         left:($x*$w)-14px;
+    //         display:initial;
+    //     }
+    // }
 }
 
 
