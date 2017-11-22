@@ -2,6 +2,9 @@ body {
   margin: 0px;
   background-color: #191919; }
 
+p {
+  margin: 0px; }
+
 .container {
   position: relative;
   width: 750px;
@@ -10,6 +13,318 @@ body {
   .container a, .container div {
     position: absolute;
     background-size: 100% 100%; }
+
+.row1 {
+  width: 100%;
+  height: 66px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row1 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 52px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row2 {
+  width: 100%;
+  height: 132px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row2 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 118px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row3 {
+  width: 100%;
+  height: 198px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row3 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 184px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row4 {
+  width: 100%;
+  height: 264px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row4 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row5 {
+  width: 100%;
+  height: 330px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row5 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 316px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row6 {
+  width: 100%;
+  height: 396px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row6 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 382px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row7 {
+  width: 100%;
+  height: 462px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row7 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 448px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row8 {
+  width: 100%;
+  height: 528px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row8 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 514px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row9 {
+  width: 100%;
+  height: 594px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row9 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 580px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row10 {
+  width: 100%;
+  height: 660px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row10 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 646px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row11 {
+  width: 100%;
+  height: 726px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row11 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 712px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row12 {
+  width: 100%;
+  height: 792px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row12 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 778px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row13 {
+  width: 100%;
+  height: 858px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row13 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 844px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.row14 {
+  width: 100%;
+  height: 924px;
+  z-index: 5;
+  border-bottom: 1px solid #ddd;
+  color: #fff; }
+  .row14 p {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    top: 910px;
+    background-color: #000;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    left: -26px; }
+
+.col1 {
+  width: 75px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col2 {
+  width: 150px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col3 {
+  width: 225px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col4 {
+  width: 300px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col5 {
+  width: 375px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col6 {
+  width: 450px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col7 {
+  width: 525px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col8 {
+  width: 600px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col9 {
+  width: 675px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
+
+.col10 {
+  width: 750px;
+  height: 100%;
+  z-index: 5;
+  border-right: 1px solid #ddd; }
 
 .shape1 {
   left: 75px;
