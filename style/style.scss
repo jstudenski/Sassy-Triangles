@@ -76,7 +76,6 @@ $h: 66px;
         top:$top*$h;
         width: max($max...)*$w;
         height: max($height...)*$h;
-        // background-color: salmon; // if no background image
         background-image: url('../images/image_#{$number}.png');
         clip-path:polygon($cp);
         @if $layer {z-index: $layer;}
