@@ -5,7 +5,7 @@ body {
 p {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 70%;
   color: #fff;
   text-align: center;
   width: 13px;
@@ -46,146 +46,194 @@ p {
 .rows div:nth-child(1) {
   height: 66px; }
   .rows div:nth-child(1) p {
-    top: 52px;
-    display: initial; }
+    display: initial;
+    top: 52px; }
+    .rows div:nth-child(1) p:after {
+      content: "1"; }
 
 .rows div:nth-child(2) {
   height: 132px; }
   .rows div:nth-child(2) p {
-    top: 118px;
-    display: initial; }
+    display: initial;
+    top: 118px; }
+    .rows div:nth-child(2) p:after {
+      content: "2"; }
 
 .rows div:nth-child(3) {
   height: 198px; }
   .rows div:nth-child(3) p {
-    top: 184px;
-    display: initial; }
+    display: initial;
+    top: 184px; }
+    .rows div:nth-child(3) p:after {
+      content: "3"; }
 
 .rows div:nth-child(4) {
   height: 264px; }
   .rows div:nth-child(4) p {
-    top: 250px;
-    display: initial; }
+    display: initial;
+    top: 250px; }
+    .rows div:nth-child(4) p:after {
+      content: "4"; }
 
 .rows div:nth-child(5) {
   height: 330px; }
   .rows div:nth-child(5) p {
-    top: 316px;
-    display: initial; }
+    display: initial;
+    top: 316px; }
+    .rows div:nth-child(5) p:after {
+      content: "5"; }
 
 .rows div:nth-child(6) {
   height: 396px; }
   .rows div:nth-child(6) p {
-    top: 382px;
-    display: initial; }
+    display: initial;
+    top: 382px; }
+    .rows div:nth-child(6) p:after {
+      content: "6"; }
 
 .rows div:nth-child(7) {
   height: 462px; }
   .rows div:nth-child(7) p {
-    top: 448px;
-    display: initial; }
+    display: initial;
+    top: 448px; }
+    .rows div:nth-child(7) p:after {
+      content: "7"; }
 
 .rows div:nth-child(8) {
   height: 528px; }
   .rows div:nth-child(8) p {
-    top: 514px;
-    display: initial; }
+    display: initial;
+    top: 514px; }
+    .rows div:nth-child(8) p:after {
+      content: "8"; }
 
 .rows div:nth-child(9) {
   height: 594px; }
   .rows div:nth-child(9) p {
-    top: 580px;
-    display: initial; }
+    display: initial;
+    top: 580px; }
+    .rows div:nth-child(9) p:after {
+      content: "9"; }
 
 .rows div:nth-child(10) {
   height: 660px; }
   .rows div:nth-child(10) p {
-    top: 646px;
-    display: initial; }
+    display: initial;
+    top: 646px; }
+    .rows div:nth-child(10) p:after {
+      content: "10"; }
 
 .rows div:nth-child(11) {
   height: 726px; }
   .rows div:nth-child(11) p {
-    top: 712px;
-    display: initial; }
+    display: initial;
+    top: 712px; }
+    .rows div:nth-child(11) p:after {
+      content: "11"; }
 
 .rows div:nth-child(12) {
   height: 792px; }
   .rows div:nth-child(12) p {
-    top: 778px;
-    display: initial; }
+    display: initial;
+    top: 778px; }
+    .rows div:nth-child(12) p:after {
+      content: "12"; }
 
 .rows div:nth-child(13) {
   height: 858px; }
   .rows div:nth-child(13) p {
-    top: 844px;
-    display: initial; }
+    display: initial;
+    top: 844px; }
+    .rows div:nth-child(13) p:after {
+      content: "13"; }
 
 .rows div:nth-child(14) {
   height: 924px; }
   .rows div:nth-child(14) p {
-    top: 910px;
-    display: initial; }
+    display: initial;
+    top: 910px; }
+    .rows div:nth-child(14) p:after {
+      content: "14"; }
 
 .columns div:nth-child(1) {
   width: 75px; }
   .columns div:nth-child(1) p {
-    left: 61px;
-    display: initial; }
+    display: initial;
+    left: 61px; }
+    .columns div:nth-child(1) p:after {
+      content: "1"; }
 
 .columns div:nth-child(2) {
   width: 150px; }
   .columns div:nth-child(2) p {
-    left: 136px;
-    display: initial; }
+    display: initial;
+    left: 136px; }
+    .columns div:nth-child(2) p:after {
+      content: "2"; }
 
 .columns div:nth-child(3) {
   width: 225px; }
   .columns div:nth-child(3) p {
-    left: 211px;
-    display: initial; }
+    display: initial;
+    left: 211px; }
+    .columns div:nth-child(3) p:after {
+      content: "3"; }
 
 .columns div:nth-child(4) {
   width: 300px; }
   .columns div:nth-child(4) p {
-    left: 286px;
-    display: initial; }
+    display: initial;
+    left: 286px; }
+    .columns div:nth-child(4) p:after {
+      content: "4"; }
 
 .columns div:nth-child(5) {
   width: 375px; }
   .columns div:nth-child(5) p {
-    left: 361px;
-    display: initial; }
+    display: initial;
+    left: 361px; }
+    .columns div:nth-child(5) p:after {
+      content: "5"; }
 
 .columns div:nth-child(6) {
   width: 450px; }
   .columns div:nth-child(6) p {
-    left: 436px;
-    display: initial; }
+    display: initial;
+    left: 436px; }
+    .columns div:nth-child(6) p:after {
+      content: "6"; }
 
 .columns div:nth-child(7) {
   width: 525px; }
   .columns div:nth-child(7) p {
-    left: 511px;
-    display: initial; }
+    display: initial;
+    left: 511px; }
+    .columns div:nth-child(7) p:after {
+      content: "7"; }
 
 .columns div:nth-child(8) {
   width: 600px; }
   .columns div:nth-child(8) p {
-    left: 586px;
-    display: initial; }
+    display: initial;
+    left: 586px; }
+    .columns div:nth-child(8) p:after {
+      content: "8"; }
 
 .columns div:nth-child(9) {
   width: 675px; }
   .columns div:nth-child(9) p {
-    left: 661px;
-    display: initial; }
+    display: initial;
+    left: 661px; }
+    .columns div:nth-child(9) p:after {
+      content: "9"; }
 
 .columns div:nth-child(10) {
   width: 750px; }
   .columns div:nth-child(10) p {
-    left: 736px;
-    display: initial; }
+    display: initial;
+    left: 736px; }
+    .columns div:nth-child(10) p:after {
+      content: "10"; }
 
 .shape1 {
   left: 75px;

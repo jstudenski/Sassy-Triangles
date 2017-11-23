@@ -62,23 +62,29 @@ body {
 
 // Grid line thickness and color
 $grid-border: 1px solid #fff;
+$circle: 13px;
+
+
 
 // Grid number properties
 p {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 70%;
     color: #fff;
     text-align: center;
-    width: 13px;
-    height: 13px;
+    width: $circle;
+    height: $circle;
     position: absolute;
     background-color: #000;
     padding: 6px;
     border: $grid-border;
-    border-radius: 13px;
+    border-radius: $circle;
     display: none; // Hide extra grid numbers
+
 }
+
+
 
 .container {
     position: relative;
@@ -97,8 +103,8 @@ p {
     width: 100%;
     height: 100%;
     p {
-        top: -27px; // Cols
-        left: -27px; // Rows
+        top: -($circle+14px); // Cols
+        left: -($circle+14px); // Rows
     }
 }
 
@@ -107,29 +113,32 @@ p {
     border-bottom: $grid-border;
 }
 
-.columns div{
+.columns div {
     height: 100%;
     border-right: $grid-border;
 }
 
-@for $y from 1 through $row {
-    .rows div:nth-child(#{$y}) {
-        height:#{$y*$h}; 
+// mixin
+@mixin grid-nums($a, $b, $d) {
+    $c: $a*$b;
+    .#{$d} div:nth-child(#{$a}) {
+        $size: if($d == "rows", height, width);
+        #{$size}:$c;
         p {
-            top:($y*$h)-14px;
-            display:initial; 
+            display:initial; // show numbers
+            &:after{ content:"#{$a}"; } // add number to html
+            $loc: if($d == "rows", top, left);
+            #{$loc}:$c +-14px;
         }
     }
 }
 
+@for $x from 1 through $row {
+    @include grid-nums($x, $h, "rows");
+}
+
 @for $x from 1 through $col {
-    .columns div:nth-child(#{$x}) {
-        width:#{$x*$w};
-        p { 
-            left:($x*$w)-14px;
-            display:initial;
-        }
-    }
+    @include grid-nums($x, $w, "columns");
 }
 
 @each $number, $left, $top, $clip, $layer in $layout {
