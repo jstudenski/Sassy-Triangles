@@ -3,6 +3,7 @@
 // Grid Size
 $w: 75px; // Width (75px default)
 $h: $w*.88; // Height (66px default)
+//
 
 // Number of Rows / Columns
 $col: 10; // Columns
@@ -63,8 +64,6 @@ body {
 // Grid line thickness and color
 $grid-border: 1px solid #fff;
 $circle: 13px;
-
-
 
 // Grid number properties
 p {
