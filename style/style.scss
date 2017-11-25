@@ -9,6 +9,10 @@ $h: $w*.88; // Height (66px default)
 $col: 10; // Columns
 $row: 14; // Rows
 
+// Grid line thickness and color
+$grid-border: 1px solid #fff;
+$circle: 13px; // 13px; // (75px default)
+
 // Define Shapes:
 // [Consecutive Number],
 // [Shape starting point (→, ↓,) from top left corner]
@@ -61,9 +65,7 @@ body {
     background-color: #191919;
 }
 
-// Grid line thickness and color
-$grid-border: 1px solid #fff;
-$circle: 13px;
+
 
 // Grid number properties
 p {

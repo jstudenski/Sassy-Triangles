@@ -7,6 +7,7 @@ Photo glitched using:
 https://snorpey.github.io/jpg-glitch/
 
 > ### TO DO:
+> - add toggle button for grid
 > - finish adding images
 > - add github readme tutorial
 > - add links to images
